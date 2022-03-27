@@ -1,6 +1,6 @@
 {
   "name": "generate-json-from-js-object",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Generate Json form a Javascript Object",
   "main": "main.js",
   "scripts": {
