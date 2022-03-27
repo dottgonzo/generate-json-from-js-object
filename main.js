@@ -29,9 +29,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const commander_1 = require("commander");
 const promises_1 = __importDefault(require("fs/promises"));
-commander_1.program.option('--input <value>').option('--var <value>').option('--output <value>');
-commander_1.program.parse();
-const options = commander_1.program.opts();
+const options = commander_1.program.option('--input <value>').option('--var <value>').option('--output <value>').parse().opts();
 const filePath = options?.input;
 const variableName = options?.var;
 const outputFile = options?.output;

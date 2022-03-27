@@ -3,10 +3,7 @@
 import { program } from 'commander'
 import fs from 'fs/promises'
 
-program.option('--input <value>').option('--var <value>').option('--output <value>')
-
-program.parse()
-const options = program.opts()
+const options = program.option('--input <value>').option('--var <value>').option('--output <value>').parse().opts()
 
 const filePath = options?.input
 const variableName = options?.var
