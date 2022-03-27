@@ -1,7 +1,7 @@
 {
   "name": "generate-json-from-js-object",
   "version": "0.0.12",
-  "description": "Generate Json form a Javascript Object",
+  "description": "Generate JSON form a Javascript Object",
   "main": "main.js",
   "scripts": {
     "test": "mocha",
