@@ -15,6 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/dottgonzo/generate-json-from-js-object.git"
   },
+  "type": "module",
   "keywords": [
     "json",
     "generator"
