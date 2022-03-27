@@ -11,6 +11,7 @@
     "release:minor": "npm run build && npm version minor && git push && git push --tags && npm publish",
     "release:major": "npm run build && npm version major && git push && git push --tags && npm publish"
   },
+  "bin": "main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dottgonzo/generate-json-from-js-object.git"
