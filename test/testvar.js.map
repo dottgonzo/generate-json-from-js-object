@@ -1,1 +1,1 @@
-{"version":3,"file":"testvar.js","sourceRoot":"","sources":["testvar.ts"],"names":[],"mappings":";;;AAAa,QAAA,QAAQ,GAAG;IACtB,KAAK,EAAE,OAAO;CACf,CAAA"}
+{"version":3,"file":"testvar.js","sourceRoot":"","sources":["testvar.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,QAAQ,GAAG;IACtB,KAAK,EAAE,OAAO;CACf,CAAA"}

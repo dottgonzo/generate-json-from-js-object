@@ -17,14 +17,10 @@ import(filePath)
   .then((mod) => {
     const v = mod[variableName]
     const vstring = JSON.stringify(v, null, 2)
-    fs.writeFile(outputFile, vstring)
-      .then(() => {
-        console.info(filePath, variableName, v)
-      })
-      .catch((err) => {
-        console.error(err)
-        process.exit(1)
-      })
+    fs.writeFile(outputFile, vstring).catch((err) => {
+      console.error(err)
+      process.exit(1)
+    })
   })
   .catch((err) => {
     console.error(err)
